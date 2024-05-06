@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Price Comparator</title>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <h1>Price Comparator</h1>
+  <select id="select-product">
+    <option value="">Select a product</option>
+    <option value="1">Apple iPhone 13</option>
+    <option value="2">Samsung Galaxy S22</option>
+    <option value="3">Xiaomi Redmi 9</option>
+  </select>
+  <div id="comparison-table"></div>
+  <script src="price-comparator.js"></script>
+</body>
+</html>
